@@ -1,0 +1,14 @@
+# dane — nie wersjonujemy surowego CSV (za duży, dostępny na Kaggle)
+data/
+*.csv
+
+# wytrenowany model — regenerowany z notebooka
+*.pkl
+
+# środowisko / cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+rta_env/
